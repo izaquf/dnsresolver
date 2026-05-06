@@ -40,7 +40,7 @@ def dnsOthers(target, type, verbose=False):
 def main():
 	parser = argparse.ArgumentParser(
 		description="Dns resolver",
-		epilog="Example: python script.py -d google.com -t A -s www -v"
+		epilog=f"Example: python3 {sys.argv[0]} -d google.com -t A -s www -v"
 	)
 
 	parser.add_argument("-d", "--domain", required=True, help="Target domain")
