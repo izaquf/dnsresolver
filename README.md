@@ -14,8 +14,7 @@ cd dnsresolver
 **dependencies**
 
 ```bash
-        pip install dnspython
-
+pip install dnspython
 ```
 
 ---
